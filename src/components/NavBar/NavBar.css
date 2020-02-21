@@ -1,0 +1,27 @@
+.nav-bar {
+	height: 181px;
+	left: 0%;
+	right: 0%;
+	top: calc(50% - 181px/2);
+	background: #ffffff;
+	box-shadow: 1px 4px 10px rgba(49, 87, 125, 0.501961);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#health-nucleus-icon {
+	width: 174px;
+	height: 74px;
+}
+
+.first-half-nav {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.second-half-nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
